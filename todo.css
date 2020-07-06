@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    /* padding: 12px 8px 12px 40px; */
+    list-style-type: none;
+    font-size: 15px;
+}
+ul li:hover{
+    background-color:lightskyblue;
+}
+
+li span{
+    color:blue;
+    position: absolute;
+    margin-left: 10px;
+}
+.remove{
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+input[type=checkbox] { 
+    margin-left: 10px;
+    margin-right: 10px;
+    block-size: 25px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
